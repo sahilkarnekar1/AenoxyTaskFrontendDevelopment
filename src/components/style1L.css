@@ -1,0 +1,202 @@
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        
+      }
+
+      .main {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .subdiv {
+        flex: 1;
+        display: flex;
+        
+      }
+
+      .leftUI {
+        flex: 0 0 37%;
+        padding: 20px;
+        background-color: #f2d589;
+      }
+
+      .toptextcont {
+        margin-right: 10%;
+        margin-bottom: 10%;
+      }
+
+      .bbltxt {
+        font-family: "Cedarville Cursive", cursive;
+        font-size: 33px;
+        margin: 0;
+        line-height: 2.2;
+      }
+
+      .txtdiscover {
+        font-size: 24px;
+        margin: 0;
+        line-height: 1;
+        font-weight: bold;
+      }
+
+      .displayim1 {
+        margin-bottom: 10%;
+        margin-top: 20px;
+      }
+
+      .setIm {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .arttxt {
+        margin-top: 10%;
+        margin-top: 20px;
+      }
+
+      .rightUI {
+        flex: 1;
+        padding: 10px;
+     
+      }
+
+      .txtsignin {
+        text-align: right;
+        margin-top: 10px;
+      }
+
+      .formcont {
+        margin-top: 20px;
+      }
+
+      .headForm {
+        font-size: 25px;
+        margin-top: 18px;
+      }
+
+      .usernameError {
+        margin-top: 10px;
+      }
+
+      .txtusernameError {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: orange;
+      }
+
+      .NameUnameCont {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .nameInpDiv,
+      .unameInpDiv,
+      .emailCont,
+      .createBtnDiv {
+        flex: 1;
+        margin-bottom: 10px;
+      }
+      .emailCont {
+        margin-top: 5%;
+      }
+      .nameInpDiv {
+        margin-right: 5px;
+      }
+      .unameInpDiv {
+        margin-left: 5px;
+      }
+      .sameInp {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #e9e9e9;
+        border: none;
+      }
+
+      .sameLbl {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .termsCont {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .termsCont input {
+        transform: scale(1.5);
+        margin-right: 5px;
+      }
+
+      .termsCont font {
+        font-size: 20px;
+      }
+
+      .createBtnDiv button {
+        padding: 12px;
+        width: 50%;
+        border-radius: 5px;
+        background-color: rgb(223, 60, 87);
+        border: none;
+        cursor: pointer;
+        color: white;
+      }
+      .createBtnDiv {
+        margin-top: 5%;
+      }
+
+      .lastTxt {
+        margin-top: 5%;
+      }
+      .newFormCont {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+      .cBoxDiv {
+        margin-right: 15px;
+      }
+      .leftSubDiv {
+        margin-left: 10%;
+        margin-top: 10%;
+      }
+      span {
+        color: blue;
+      }
+      @media only screen and (max-width: 768px) {
+        .leftUI {
+          display: none;
+        }
+
+        .subdiv {
+          flex-direction: column-reverse;
+        }
+
+        .rightUI {
+          flex: 1;
+          padding: 20px;
+          border: solid;
+          margin-top: 2px;
+        }
+        .newFormCont{
+            margin: 0;
+        }
+        .termsCont font {
+        font-size: 14px;
+      }
+      }

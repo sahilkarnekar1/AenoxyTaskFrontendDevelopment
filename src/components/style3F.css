@@ -1,0 +1,128 @@
+
+.main{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.dribbletxtdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.txtDribble{
+    width: fit-content;
+    margin: 0;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(204, 42, 69);
+}
+.txtBackarrow{
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(201, 202, 202);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.brinDiv{
+    margin-left: 10%;
+}
+.txttopbrindiv{
+    text-align: center;
+    padding: 10px;
+}
+.txtbrin1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 1;
+    margin: 0;
+}
+.txtbrin2{
+    color: rgb(194, 194, 194);
+    font-family: sans-serif;
+}
+.selectordiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.selectCont{
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.selectCont img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.selectCont p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0;
+}
+.circlebtndiv{
+    width: 20px;
+    height: 20px;
+    border: solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    visibility: hidden;
+}
+.circlebtndiv.active {
+    visibility: visible;
+}
+.circlebtndiv path {
+    fill: white;
+}
+.anyElse{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.anyElse p{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.buttonNext{
+    text-align: center;
+}
+.buttonNext button{
+    margin-top: 3%;
+    width: 20%;
+    padding: 8px;
+    background-color: rgb(238, 81, 107);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .selectordiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    .selectCont {
+        width: 90%;
+    }
+    .brinDiv{
+        margin: 0 10px;
+    }
+}
+
